@@ -1,17 +1,48 @@
-#end {
-  word-spacing: 20px;
-  text-align: end;
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
 }
 
-footer {
+body {
+  /* background-color: aliceblue; */
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+button {
+  border-radius: 50px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#name {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#end {
+  position: absolute;
+  right: 20px;
+  word-spacing: 2rem;
+}
+#sample {
   text-align: center;
 }
-
-button{
-    border-radius: 50px;
-    color: rgb(238, 80, 80);
+#footer {
+  text-align: center;
+  /* position: fixed; */
+  /* bottom: 0; */
 }
-
-body{
-    background-color: aliceblue;
+footer {
+  /* align-items: center; */
+  position: fixed;
+  bottom: 0;
+  /* right: 0; */
 }

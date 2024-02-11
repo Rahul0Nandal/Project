@@ -10,6 +10,7 @@ body {
   /* background-color: aliceblue; */
   background-image: url(bg.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 button {

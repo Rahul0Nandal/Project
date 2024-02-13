@@ -15,7 +15,10 @@ body {
 
 button {
   border-radius: 50px;
+  text-align: center;
   background-color: black;
+  padding: 5px 15px 5px 15px;
+
 }
 
 a {

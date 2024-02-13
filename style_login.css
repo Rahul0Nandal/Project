@@ -1,0 +1,22 @@
+
+body{
+    background-image: url(img/login-bg.jpg);
+    background-size: cover;
+}header{
+    text-align: center;
+    color: aliceblue;
+}
+#main{
+    text-align: center;
+    display: flex;
+      justify-content: center;
+    margin-top: 200px;
+    
+    
+}#in{
+    background-color: aliceblue;
+    padding: 30px;
+    border: dashed rgb(195, 255, 250);
+    border-radius: 20px;
+    
+}

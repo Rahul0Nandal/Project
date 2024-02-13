@@ -8,7 +8,7 @@
 
 body {
   /* background-color: aliceblue; */
-  background-image: url(bg.jpg);
+  background-image: url(img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -44,6 +44,7 @@ a {
 footer {
   /* align-items: center; */
   position: fixed;
+  color: black;
   bottom: 0;
   /* right: 0; */
 }

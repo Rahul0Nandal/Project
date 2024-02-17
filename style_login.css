@@ -1,7 +1,6 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-
 }
 
 body {
@@ -36,22 +35,19 @@ input {
 }
 
 #in {
-  background-color: rgba(240,248,255,40%);
+  background-color: rgba(240, 248, 255, 40%);
   padding: 30px;
   border: dashed rgb(195, 255, 250);
   border-radius: 20px;
 }
 #in_signup {
-  background-color: rgba(240,248,255,40%);
+  background-color: rgba(240, 248, 255, 40%);
   padding: 30px 50px 30px 50px;
   border: dotted rgb(195, 255, 250);
   border-radius: 20px;
 }
-.button{
- 
-  /* border-radius: 50%; */
-}
-.button:hover{
+
+.button:hover {
   background-color: rgb(174, 228, 214);
 }
 a {

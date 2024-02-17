@@ -14,6 +14,11 @@ body {
 }header{
   /* background-color: black; */
 }
+#logo{
+  display: inline-block;
+  /* width: 200px; */
+  /* background-image: url(img/logo.jpg); */
+}
 #nav_item {
   list-style-type: none;
   margin: 0;
@@ -31,7 +36,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 1rem;
   text-decoration: none;
 }
 
@@ -118,10 +123,27 @@ footer {
   justify-content: center;
 }#copyright{
   display: inline-block;
-  margin: 0px;
+  margin: 10px;
   
 }#rahul{
   text-decoration: none;
   color: aqua;
   text-decoration: underline;
+}.bold{
+  
+  font-weight: 900;
+}#lighter{
+  font-weight: 100;
+}
+.fa {
+  padding: 10px;
+  /* font-size: 30px; */
+  /* width: 10px; */
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover{
+background-color:#333;
 }
